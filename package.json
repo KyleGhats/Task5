@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "npx tailwindcss -i ./src/global.scss -o ./dist/global.css --watch",
-    "minify": "npx tailwindcss -i ./src/input.scss -o ./dist/output.css --minify"
+    "minify": "npx tailwindcss -i ./src/global.scss -o ./dist/global.css --minify"
   },
   "devDependencies": {
     "tailwindcss": "^3.3.2"
